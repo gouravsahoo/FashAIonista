@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transformers = "*"
+pillow = "*"
+requests = "*"
+numpy = "*"
+docarray = {version = "*", extras = ["milvus"]}
+grpcio = "==1.54.3"
+torch = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
